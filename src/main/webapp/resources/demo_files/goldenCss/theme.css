@@ -1,0 +1,75 @@
+
+/*add css*/
+div#logo a{
+    color: #F1C152;
+}
+.deviceWrap .title{
+    border-top:2px solid #F1C152
+}
+.mainWrap .title {border-bottom: 1px solid #F1C152;}
+
+#home .mainWrap .options {border-bottom: 1px solid #F1C152;}
+.clientPanner .header{
+    height:40px;
+    border-bottom: 2px solid #F1C152;
+}
+#mainnav { background: none repeat scroll 0 0 #f2f9c4;  border-bottom: 1px solid #F1C152;}
+
+#page {
+    background: none repeat scroll 0 0 #FBF9D6;
+}
+#header {
+    background: none repeat scroll 0 0 #FBF9D6;
+    height: 52px;
+    overflow: hidden;
+}
+#home .leftWrap {
+    background: none repeat scroll 0 0 #FBF9D6;
+    border-right: 2px solid #F1C152;
+    float: left;
+    width: 250px;
+}
+.clientPanner{ width: 100%; background: #FBF9D6; position: relative; border-right: 2px solid #F1C152;}
+
+.devPanner {
+    background: none repeat scroll 0 0 #FBF9D6;
+    position: relative;
+    width: 100%;
+}
+
+/*todo manage.css 15行*/
+#manage .devTable tr:hover td,#manage .devTable tr.here td{ background-color:#F3E8C4;}
+
+
+#manage .devTable td { background-color: #FBF9D6; color: #515c64;text-align: left;}
+
+/*重写背景色*/
+#mainnav li a:hover,#mainnav li a.here{ background: #F1C152; color: #ffffff;}
+.devPanner .header{ position: relative; font-size: 14px; font-weight: bold; height: 40px; line-height: 40px;border-bottom:2px solid #F1C152; background: #f0f0f0}
+.devPanner .header .tip{ margin-left:25px;display: inline-block; width: 95px; text-align: center; line-height: 40px;color:white;background:#F1C152}
+.mainWrap .title { font-size: 15px; padding-left: 10px;background:#f0f0f0;height: 40px; border-bottom: 2px solid #F1C152;
+    line-height:40px;vertical-align: middle;font-weight: bold;}
+
+.ui-widget-header {
+    border: 1px solid #aaa;
+    background: #F1C152 url(view_images/ui-bg_highlight-soft_0_48BBB4_1x100.png) 50% 50% repeat-x;
+    color: #fff;
+    font-weight: bold
+}
+
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active {
+    border: 1px solid #fff;
+    background: #F1C152 url(view_images/ui-bg_glass_30_48BBB4_1x400.png) 50% 50% repeat-x;
+    font-weight: normal;
+    color: #fff
+}
+#warning .devTable th{color: #F1C152; text-align: center; font-weight: normal;font-size:14px;padding: 10px;border-bottom: 1px solid #bbbbbb;}
+#warning .devTable .dev_item .dev_name { color: #F1C152;font-size: 14px;}
+#home .leftWrap{ float: left;width: 250px; border-right: 2px solid #F1C152;background: #fbf9d6;}
+#home .leftWrap .header { font-size: 15px; font-weight: bold; background: #F1C152; padding: 5px 5px;color: #ffffff;text-align: center;}
+#home .mainWrap .info-panel .pwd { font-weight: bold;color:#F1C152;cursor: pointer; }
+.clientPanner{ width: 100%; background: #FBF9D6; position: relative; border-right: 2px solid #F1C152;}
+.clientPanner .header{ position: relative; font-size: 14px; font-weight: bold; height: 40px; line-height: 40px;border-bottom:2px solid #F1C152; background: #f0f0f0; border-right: 2px solid #F1C152;}
+.clientPanner .header .tip{ margin-left:25px;display: inline-block; width: 95px; text-align: center; line-height: 40px;color:white;background:#F1C152}
+.clientMenu { position: absolute; background: #F1C152;  padding: 10px 15px; border: 1px solid #f0f0f0; /* color: white; */ visibility: hidden;}
+.clientView table .operate span {color:#F1C152;cursor:pointer;text-decoration: underline;}

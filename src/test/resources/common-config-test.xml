@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ec>
+	<setting name="siteUrl" value="http://localhost:8080" />
+	<setting name="captchaTypes"
+		value="userLogin,userReg,findPassword,resetPassword,other" />
+	<setting name="pwdTokenExpiryTime" value="30" />
+	<setting name="cookiePath" value="/" />
+	<setting name="cookieDomain" value="" />
+	<setting name="passwordMinlength" value="6" />
+	<setting name="monthCounts" value="-3" />
+	<setting name="simulatorServerIp" value="118.194.192.104" />
+	<setting name="simulatorServerPort" value="60006" />
+	<!-- API -->
+	<setting name="apiUrl" value="http://118.194.192.103:60009" />
+	<setting name="apiUrlAjax" value="http://118.194.192.103:60009" />
+	<setting name="apiRegister" value="/api/user.register.do" />
+	<setting name="apiLogin" value="/api/logon.do" />
+	<setting name="apiEditUser" value="/api/edit.user.do" />
+	<setting name="apiUpatePwd" value="/api/update.pwd.do" />
+	<setting name="apiBackendUserMode" value="/api/backend.user.mode.do" />
+	<setting name="apiBackendUserType" value="/api/backend.user.type.do" />
+	<setting name="apiViewStatistics" value="/api/backend.sum.stat.do" />
+	<!-- 设备管理 -->
+	<setting name="apiDeviceAdd" value="/api/backend.device.add.do" />
+	<setting name="apiDeviceEdit" value="/api/backend.device.operate.do" />
+	<!-- 开发者 -->
+	<setting name="apiDevApikey" value="/api/backend.user.apikey.do" />
+	<setting name="apiGetAllApi" value="/api/api.all.do" />
+	<!-- 获取最新GPS -->
+	<setting name="apiGetStatus" value="/api/get.status.do" />
+	<!-- 获取指定时间段GPS -->
+	<setting name="apiGetTrack" value="/api/get.track.do" />
+	<!--根据用户名查询ID -->
+	<setting name="apiGetUserId" value="/api/user.getid.do" />
+	<!-- 获取最新GPS -->
+	<setting name="apiGetStatus" value="/api/get.status.do" />
+	<!-- 获取指定时间段GPS -->
+	<setting name="apiGetTrack" value="/api/get.track.do" />
+	<!-- 获取最新GPS -->
+	<setting name="apiGetStatus" value="/api/get.status.do" />
+	<!-- 获取指定时间段GPS -->
+	<setting name="apiGetTrack" value="/api/get.track.do" />
+
+
+	<!-- 初始化的开发者和后台模式的角色id值，如果数据这两个角色的ID发生了变化请务必在此修改 -->
+	<setting name="developmentModeRoleId" value="5" />
+	<setting name="backendModeRoleId" value="6" />
+
+	<!-- 后台模式所需配置 -->
+	<setting name="defaultSiteDomainForEnterprise" value="demo.capcare.com.cn:8085" />
+	<setting name="defaultSiteDomainForIndividual" value="demo.capcare.com.cn:8084" />
+
+	<!-- ESB API 报警内容配置 -->
+	<setting name="siteName" value="中国位置" />
+	<setting name="smtpFromMail" value="capcare_service@chinalbs.org" />
+	<setting name="smtpHost" value="mail.chinalbs.org" />
+	<setting name="smtpPort" value="25" />
+	<setting name="smtpUsername" value="capcare_service" />
+	<setting name="smtpPassword" value="capcare2013" />
+
+	<setting name="alarmEmailSender" value="capcare_service@chinalbs.org" />
+	<setting name="alarmEmailTitle" value="[警告]API调用异常：" />
+	<setting name="alarmEmailContent" value="下列API接口调用异常，请及时知悉并获取详细错误信息。" />
+
+	<template id="apiNotifyMail" type="mail" name="API异常通知邮件"
+		templatePath="/console/mail/api_notify.ftl" />
+	<template id="findPasswordMail" type="mail" name="找回密码"
+		templatePath="/console/password/mail.ftl" />
+
+	<!-- 是否分表存储 轨迹点配置 -->
+	<setting name="dividedTable" value='true' />
+	<setting name="tableNamePrefix" value="us_spot" />
+
+
+
+
+</ec>
+

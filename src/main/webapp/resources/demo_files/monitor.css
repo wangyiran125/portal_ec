@@ -1,0 +1,58 @@
+/*!
+ * Item Name : 首页
+ * Creator : Fanda
+ * Email : canpark@126.com
+ * Created Date   :	2013.09.20
+ */
+html { margin: 0;padding: 0}
+body {margin: 0;padding: 0;overflow-y: hidden;}
+#home{ position: relative; /* overflow: hidden; */ zoom:1;}
+#home .pannerWrap{ float: left;width: 384px;}
+#home .mainWrap{ position: relative;overflow: hidden;}
+#home .mainWrap .options{ z-index: 999; left: 0; top: 0; width: 100%;background:#f0f0f0;height:41px;}
+#home .mainWrap .options button{ background: url(view_images/bg_button_op.jpg) repeat-x left top; border: 1px solid #b3bdc3; height: 24px; color: #2c343b; font-size: 12px;padding: 0px 10px 2px; cursor: pointer;}
+
+.monitorOp{ background: url(view_images/bg_options.jpg) repeat-x left top; height: 40px; width: 100%;  border-bottom: 1px solid #b0aeac;}
+.monitorOp .guideName{ display:inline-block; color: #f26609; height: 40px; padding-left: 40px; line-height: 40px;font-weight: bold;}
+
+.trackOp{ background: url(view_images/bg_options.jpg) repeat-x left top; width: 100%;  border-bottom: 1px solid #b0aeac; position: relative; z-index: 999;}
+.trackOp .guideName{ display:inline-block; color: #f26609; height: 40px; padding-left: 40px; padding-right: 15px; line-height: 40px;font-weight: bold;}
+.trackOp .devName{ display: inline-block; color: #f26609;margin-right: 10px;font-weight: bold;}
+.trackOp .times span{ padding: 0 10px; position: relative;}
+.trackOp .times .timeSel{ position: absolute; padding: 0; right: 15px; top: 2px; width: 12px; height: 12px; background: url(view_images/icon_time.gif) no-repeat;cursor: pointer; }
+.trackOp .times input{ width: 120px; padding: 0 5px;border: 1px solid #b3bdc3;}
+.trackOp .pause {margin-left: 10px;margin-top: -20px;}
+.trackOp .posWrap { display: none;}
+.trackOp .posDetailWrap{overflow: hidden; position: relative; border-bottom: 1px solid #abaaa8;max-height: 300px;}
+.trackOp .showControl { background: #edf1f4;padding: 5px;display: none;}
+.trackOp .showControl .buttonArea { margin: 0 auto;text-align: center;}
+.trackOp .devTable{ width: 100%; color: #a5a5a5;border-collapse:collapse;}
+.trackOp .devTable td,.devTable th{ padding: 8px 15px; min-width: 50px;text-align: left;}
+.trackOp .devTable td{ cursor: pointer; text-align: left;color: #515c64; background-color: #f4f7f9;}
+.trackOp .devTable tr:hover td,.trackOp .devTable tr.here td{ background-color: #d0dce4;}
+.trackOp .devTable th{ background: #f4f7f9; border-bottom: 1px solid #aaacae; color: #2c343b; text-align: left; font-weight: normal;}
+.trackOp .devTable td a{ cursor: pointer;}
+.trackOp .devTable .tooltip{ visibility: hidden;}
+.trackOp .devTable .operate button {margin-right: 20px}
+.trackOp .progressWrap{ display: none; padding: 15px 40px; height: 13px; border-top: 1px solid #bec1c3; background:#edf1f4 url(view_images/track_process_bg.jpg) repeat-x left center;}
+
+.trackOp .getPosDetail .icon.down{ margin-bottom: 1px; margin-left: 2px; display:inline-block; background: url(view_images/icon_down.png) no-repeat left top; width: 14px; height: 7px;}
+.trackOp .getPosDetail .icon.up{ margin-bottom: 1px; margin-left: 2px; display:inline-block; background: url(view_images/icon_up.png) no-repeat left top; width: 14px; height: 7px;}
+.trackOp .posList .pos_item.here { background: #d0dce4}
+
+.fenceOp{ font-size: 12px; position: relative; background: url(view_images/bg_options.jpg) repeat-x left top; height: 40px; width: 100%;  border-bottom: 1px solid #b0aeac;}
+.fenceOp .guideName{ display:inline-block; color: #f26609; height: 40px; padding-left: 40px; padding-right: 15px; line-height: 40px;font-weight: bold;}
+.fenceOp .guideName.tip { float: right;padding-right: 100px; display: none;}
+.fenceOp .fenceBtn{ z-index: 999; position: absolute; top: 8px; right: 10px; text-align: right;}
+.fenceOp .createFence{ display: none; border:1px solid #9aacab; border-bottom: none; background-color: #edf1f4; color: #2c343b; text-align: left;}
+.fenceOp .createFence .desc{ background-color: #edf1f4; color: #2c343b; font-weight: bold;}
+.fenceOp .createFence .row{ padding: 10px 15px;border-bottom: 1px solid #9aacab;border-top: 1px solid #ffffff;}
+.fenceOp .createFence .row .pad{ padding: 0 10px; display: inline-block;}
+.fenceOp .createFence .row.center{text-align: center;}
+.fenceOp .drawPanel { z-index: 999; position: absolute; top: 8px; right: 10px; text-align: right; display: none;}
+
+#trackProgress{ float: left; width: 440px;}
+.speedWrap{ float: left;margin-left:20px; width: 120px;}
+.speedWrap label{ float: left; padding: 0 5px; margin-top: -2px;}
+.speedWrap .speed{ float: left; margin: 0 5px; width:60px;}
+.speedWrap .ui-slider-horizontal .ui-slider-range{ background: none;}

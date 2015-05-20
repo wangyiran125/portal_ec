@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ec>
+	<setting name="siteUrl" value="http://portal.chinalbs.org/EC" />
+	<setting name="captchaTypes"
+		value="userLogin,userReg,findPassword,resetPassword,other" />
+	<setting name="pwdTokenExpiryTime" value="30" />
+	<setting name="cookiePath" value="/" />
+	<setting name="cookieDomain" value="" />
+	<setting name="passwordMinlength" value="6" />
+	<setting name="monthCounts" value="-3" />
+	<setting name="simulatorServerIp" value="192.168.167.231" />
+	<setting name="simulatorServerPort" value="60004" />
+	<!-- API -->
+	<setting name="apiUrl" value="http://localhost:8080" />
+	<setting name="apiRegister" value="/api/user.register.do" />
+	<setting name="apiLogin" value="/api/logon.do" />
+	<setting name="apiEditUser" value="/api/edit.user.do" />
+	<setting name="apiUpatePwd" value="/api/update.pwd.do" />
+	<setting name="apiBackendUserMode" value="/api/backend.user.mode.do" />
+	<setting name="apiBackendUserType" value="/api/backend.user.type.do" />
+	<setting name="apiViewStatistics" value="/api/backend.sum.stat.do" />
+       	<setting name="apiDeviceStatistics" value="/api/get.device.stat.do" />
+    	<setting name="apiUserStatistics" value="/api/get.user.stat.do" />
+    	<setting name="apiUserNameCheck" value="/api/check.name.do" />
+	<!-- 设备管理 -->
+	<setting name="apiDeviceAdd" value="/api/backend.device.add.do" />
+	<setting name="apiDeviceEdit" value="/api/backend.device.operate.do" />
+	<!-- 开发者 -->
+	<setting name="apiDevApikey" value="/api/backend.user.apikey.do" />
+	<setting name="apiGetAllApi" value="/api/api.all.do" />
+	 <!--  获取最新GPS-->
+	<setting name="apiLatestPosition" value="/api/get.position.do" />
+    <!-- 获取指定时间段GPS-->
+    <setting name="apiGetTrack" value="/api/get.track.do" />
+    <!--根据用户名查询ID-->
+    <setting name="apiGetUserId" value="/api/user.getid.do" />
+	 <!--  获取最新GPS-->
+    <setting name="apiGetStatus" value="/api/get.status.do" />
+    <!-- 获取指定时间段GPS-->
+    <setting name="apiGetTrack" value="/api/get.track.do" />
+    <!-- 获取API文档 -->
+    <setting name="apiGetApiDocList" value="/api/api.doc.do" />
+    <setting name="apiGetApiDocDetail" value="/api/api.doc.detail.do" />
+    
+    <!-- 设备管理 -->
+	<setting name="apiIndoorBeaconAdd" value="/api/backend.device.add.do" />
+	<setting name="apiIndoorBeaconEdit" value="/api/backend.device.operate.do" />
+	<setting name="apiIndoorBeaconDelete" value="/api/backend.device.operate.do" />
+
+
+	<!-- 初始化的开发者和后台模式的角色id值，如果数据这两个角色的ID发生了变化请务必在此修改 -->
+	<setting name="developmentModeRoleId" value="2" />
+	<setting name="backendModeRoleId" value="3" />
+	
+	 <!--  后台模式所需配置-->
+    <setting name="defaultSiteDomainForEnterprise" value="b.chinalbs.org" />
+    <setting name="defaultSiteDomainForIndividual" value="c.chinalbs.org" />
+    
+    <!-- ESB API 报警内容配置 -->
+    <setting name="siteName" value="中国位置" />
+    <setting name="smtpFromMail" value="capcare_service@chinalbs.org" />
+	<setting name="smtpHost" value="mail.chinalbs.org" />
+	<setting name="smtpPort" value="25" />
+	<setting name="smtpUsername" value="capcare_service" />
+	<setting name="smtpPassword" value="capcare2013" />
+	
+    <setting name="alarmEmailSender" value="capcare_service@chinalbs.org" />
+	<setting name="alarmEmailTitle" value="[警告]API调用异常：" />
+    <setting name="alarmEmailContent" value="下列API接口调用异常，请及时知悉并获取详细错误信息。" />
+
+     <!--  获取最新GPS-->
+    <setting name="apiGetStatus" value="/api/get.status.do" />
+    <!-- 获取指定时间段GPS-->
+    <setting name="apiGetTrack" value="/api/get.track.do" />
+    
+    <template id="apiNotifyMail" type="mail" name="API异常通知邮件" templatePath="/console/mail/api_notify.ftl" />
+	<template id="findPasswordMail" type="mail" name="找回密码" templatePath="/console/password/mail.ftl"/>
+
+    <!-- 是否分表存储 轨迹点配置 -->
+    <setting name="dividedTable" value='false'/>
+    <setting name="tableNamePrefix" value="us_spot"/>
+    
+    
+    
+    
+</ec>
+

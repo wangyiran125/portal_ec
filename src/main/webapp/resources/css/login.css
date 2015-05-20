@@ -1,0 +1,116 @@
+@charset "utf-8";
+
+
+/* ---------- Login ---------- */
+body{
+            margin:0;
+            padding:0;
+            font-family:"微软雅黑";
+        }
+        .header{
+            height: 60px;
+            background: #ffffff url("../images/bg_banner.gif") repeat ;
+        }
+        .logo{
+            width: 114px;
+			height: 35px;
+            margin-left: 200px;
+            margin-top:12px;
+        }
+        .container{
+            margin:0px auto;
+            width:100%;
+            height: 607px;
+            min-width: 1000px;
+            widtgh:100%;
+            background: #ffffff url("../images/bg1.jpg") no-repeat ;
+        }
+        .container .stance{
+            height: 70px;;
+        }
+        .content{
+            width: 320px;
+            height: 400px;
+            float: right;
+            margin-right:240px;
+            background-color: #d3d9cf;
+            opacity: 0.8;
+        }
+        .content h1{
+            color: #25ACA5;
+			width: 320px;
+			text-align: center;
+			margin-top: 20px;
+			margin-bottom: 5px;
+			font-size: 24px;
+        }
+        .div_input{
+            width: 320px;
+        }
+        .div_input a{
+            font-size: 14px;
+        }
+        .div_input span{
+            margin-left: 50px;
+            font-size: 16px;
+        }
+        input.text {
+            width: 240px;
+            height: 40px;
+            line-height: 40px;
+            padding: 0px 4px;
+            color: #666;
+            margin: 15px 40px 10px 40px;
+        }
+        input.captcha{
+            width: 110px;
+            height: 40px;
+            line-height: 40px;
+            padding: 0px 4px;
+            margin: 15px 5px 10px 40px;
+        }
+        input.checkbox{
+            margin-left: 40px;
+        }
+        .captchaImage {
+            height: 40px;
+            line-height: 40px;
+        }
+        .footer-warp{
+            height: 90px;
+            width:100%;
+            margin: -2px auto;
+            background-color:#FFFFFF;
+            background: #FFFFFF url("../images/bg3.jpg") repeat 0px -21px;
+        }
+        .footer-warp .copy-warp {
+            width: 100%;
+            height: 80px;
+            line-height: 80px;
+        }
+        .footer-warp .copy {
+            margin: 0px auto;
+            text-align: center;
+            color: #999;
+            font-size: 13px;
+        }
+        .footer-warp .copy span {
+            padding-left: 20px;
+        }
+        .loginButton{
+            width: 240px;
+            height: 50px;
+            background-color: #0CA69C;
+            border-radius: 5px;
+            margin: 15px 40px 10px 40px;
+            color: #fff;
+			font-size: 16px;
+			font-weight: bold;
+        }
+        .forgetLink{
+            margin-left: 50px;
+            color: #f00;
+        }
+        .registerLink{
+            color: #00f;
+        }

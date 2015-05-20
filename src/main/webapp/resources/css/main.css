@@ -1,0 +1,222 @@
+@charset "utf-8";
+
+/*
+ * Style - Main
+ * Version: 3.0
+ */
+
+/* ---------- Main ---------- */
+body{
+	font-family:"微软雅黑";
+}
+table.main {
+	width: 100%;
+	overflow: hidden;
+	height: 100%;
+}
+
+table.main th {
+	height: 50px;
+	background-color: #4f4f4f;
+	background: url('../images/dh_bg.gif') repeat scroll 0px 0px transparent;
+}
+
+
+table.main td {
+	vertical-align: top;
+}
+
+table.main .logo {
+	height:50px;
+	
+}
+table.main .logo a{
+	color:#FFFFFF;
+}
+
+table.main .logo a span{
+	background: url('../images/logo.png') no-repeat scroll 0px 0px transparent;
+	width: 130px;
+	display: block;
+	height: 50px;
+	margin: 0px 30px;
+}
+
+table.main .preNav{
+	width:200px;
+	height:60px;
+	background-color: #c6c6c6;
+	background: url('../images/daohang.jpg') repeat-X scroll;
+}
+
+table.main .navTd{
+	height:60px;
+	background: url('../images/daohang.jpg') repeat-X scroll;
+}
+
+
+table.main .nav {
+	min-width: 800px;
+	width:100%;
+	height:57px;
+	padding-top: 10px 50px;
+	white-space: nowrap;
+	margin-left:20px;
+	background: url('../images/daohang.jpg') repeat-x scroll 0% 0% transparent;
+}
+
+
+table.main .nav li {
+	float: left;
+	padding: 0px 2px;
+	margin: 0px 10px;
+}
+
+table.main .nav li a {
+	height: 40px;
+	line-height: 40px;
+	padding: 3px 6px;
+	font-size: 16px;
+	font-weight: bold;
+	color: #4F4F4F;
+	text-align: center;
+	outline: medium none;
+	margin: 10px 2px;
+	display: inline-block;
+}
+
+table.main .nav li a:hover, table.main li a.current {
+	border-bottom:4px solid #0CA69C;
+	padding: 1px 6px;
+}
+
+table.main .link {
+	height: 29px;
+	line-height:29px;
+	float: right;
+	text-align: right;
+	overflow: hidden;
+	white-space: nowrap;
+	color:#FFFFFF;
+	margin-right: 30px;
+}
+
+table.main .link a {
+	padding: 0px 6px;
+	color:#FFFFFF;
+}
+
+table.main .menuTd{
+	width:194px;
+	padding-left: 15px;
+}
+
+table.main .menu {
+     background-color: #fff;
+     width:192px;
+     margin-top: 20px;
+}
+
+table.main .menu dl {
+	padding: 0px;
+	display: none;
+	width:194px;
+}
+
+table.main .menu .default {
+	display: block;
+}
+
+table.main .menu dt {
+	height: 40px;
+	line-height: 40px;
+	text-align:left;
+	background-color:#eaeaea;
+	width:192px;
+	border-top-left-radius:10px;
+    border-top-right-radius:10px;
+    font-weight: bold;
+	font-size: 15px;
+	border:1px solid #d4d4d4;
+}
+table.main .menu dt i{
+	height: 30px;
+	line-height: 30px;
+	display: block;
+	background: url('../images/user.gif') no-repeat scroll -2px 0px transparent;
+	float: left;
+	overflow: hidden;
+	width: 52px;
+	margin: 5px 0px 5px 20px;
+}
+
+
+table.main dl dd:last-child {
+	border-bottom-right-radius: 10px 10px ;
+    border-bottom-left-radius:10px 10px  ;
+}
+
+table.main .menu dd {
+	background-color:#eaeaea;
+	border:1px solid #d4d4d4;
+	width:192px;
+	margin-top:1px;
+}
+
+table.main .menu dd a {
+	height: 40px;
+	line-height: 40px;
+	display: block;
+	color: #4F4F4F;
+	outline: none;
+	blr: expression(this.hideFocus = true);
+	padding:1px;
+	text-align:left;
+	font-weight: bold;
+	font-size: 15px;
+}
+
+
+
+table.main .menu dd a i{
+	height: 40px;
+	line-height: 40px;
+	display: block;
+	background: url('../images/close.png') no-repeat scroll 4px 9px transparent;
+	float: left;
+	overflow: hidden;
+	width: 30px;
+	margin-left: 25px;
+	margin-right: 15px;
+}
+
+table.main .menu dd a:hover {
+	background-color: #036666;
+	color:#ffffff;
+}
+
+table.main .menu dd a.current {
+	color: #0CA69C;
+}
+
+table.main .menu dd a.current i {
+	height: 40px;
+	line-height: 40px;
+	display: block;
+	background: url('../images/open.png') no-repeat scroll 6px 9px transparent;
+	float: left;
+	overflow: hidden;
+	width: 30px;
+	margin-left: 25px;
+	margin-right: 15px;
+}
+
+table .iframeTd{
+	padding-top: 20px;
+	height:100%;
+}
+
+table.main iframe {
+	width: 100%;
+	height:100%;
+}
